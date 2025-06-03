@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Store Preview](image/screenshot.png)
+![Form Preview](image/screenshot.png)
 
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
