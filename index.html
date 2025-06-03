@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login panel</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <form id="form" class="form" method="post">
+            <div class="container">
+                <h1>ثبت نام</h1>
+                <hr />
+                <div class="inputs">
+                    <div class="form-control">
+                        <label for="uname"> نام کاربری: </label>
+                        <input
+                            type="text"
+                            placeholder="نام کاربری را وارد کنید"
+                            name="uname"
+                            id="uname"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email"> ایمیل: </label>
+                        <input
+                            type="email"
+                            placeholder="ایمیل را وارد کنید"
+                            name="email"
+                            id="email"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="pass"> رمز: </label>
+                        <input
+                            type="password"
+                            placeholder="رمز را وارد کنید"
+                            name="pass"
+                            id="pass"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                    <div class="form-control">
+                        <label for="pass2"> رمز: </label>
+                        <input
+                            type="password"
+                            placeholder="رمز را تایید کنید"
+                            name="pass2"
+                            id="pass2"
+                        />
+                        <br />
+                        <small></small>
+                    </div>
+                </div>
+                <button type="submit">ثبت نام</button>
+            </div>
+        </form>
+        <script src="app.js"></script>
+    </body>
+</html>
