@@ -100,8 +100,9 @@ input:focus {
 }
 
 button {
-    width: 71%;
-    padding: 1rem;
+    width: 68%;
+    max-width: 14.1rem;
+    padding: 0.9rem;
     margin-top: 1.2rem;
     background: linear-gradient(135deg, #2a4759 0%, #1d3241 100%);
     color: white;
@@ -110,6 +111,8 @@ button {
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    right: 8.1rem;
+    bottom: -2.1rem;
     transition: all 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
     position: absolute;
 }
