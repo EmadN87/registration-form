@@ -36,7 +36,7 @@ A modern, responsive registration form with smooth animations and validation. Bu
 
 -   User-friendly validation
 -   Password confirmation
--   Error messaging system
+-   Error messaging system (Soon)
 -   RTL language support
 </details>
 
