@@ -8,6 +8,10 @@
 
 </div>
 
+## 🚀 Live Demo
+
+Experience the site live at 👉 [Click me](https://registration-form-emad.netlify.app/)
+
 ## ✨ Overview
 
 A modern, responsive registration form with smooth animations and validation. Built with pure HTML, CSS, and JavaScript to provide an exceptional user experience.
