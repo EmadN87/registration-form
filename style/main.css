@@ -81,7 +81,8 @@ hr {
 .inputs label {
     color: #445;
     font-size: 0.95rem;
-    margin-bottom: 0.35rem;
+    position: relative;
+    bottom: 0.4rem;
     font-weight: 500;
 }
 
