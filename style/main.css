@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: vazirmatn;
+    font-family: 'poppins', 'vazirmatn';
 }
 
 *::selection {
@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    background: rgba( 135, 155, 191, 0.25 );
+    background: rgba(135, 155, 191, 0.25);
     padding: 2.5rem 4.5rem;
     border-radius: 23px;
     border: 1px solid rgb(140 153 161);
@@ -92,7 +92,7 @@ input {
     border-radius: 12px;
     font-size: 1rem;
     transition: all 0.3s cubic-bezier(0.55, 0.09, 0.68, 0.53);
-background: rgba( 135, 155, 191, 0.5 );
+    background: rgba(135, 155, 191, 0.5);
 }
 
 input::placeholder {
@@ -102,13 +102,18 @@ input::placeholder {
 
 input:hover {
     border-color: #2a4759;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(150, 150, 255, 0.2);
 }
 
 input:focus {
     border-color: #2a4759;
     outline: none;
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+small.error {
+    color: rgb(255 0 0 / 50%);
+    position: fixed;
 }
 
 button {
@@ -119,10 +124,10 @@ button {
     padding: 0.9rem 7.3rem;
     max-width: 300px;
     margin: 0 auto;
-background: rgba( 135, 155, 191, 0.25 );
+    background: rgba(135, 155, 191, 0.25);
     backdrop-filter: blur(10px);
     color: white;
-    border: 1px solid rgb(140 153 161);
+    border: 1px solid rgba(140, 153, 161);
     border-radius: 12px;
     font-size: 1rem;
     font-weight: 500;
@@ -134,7 +139,7 @@ button:active {
     transform: translateY(0);
 }
 
-    /* button:hover {
+/* button:hover {
         animation: float-d 1500ms infinite;
     } */
 
