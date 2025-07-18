@@ -11,7 +11,6 @@
 }
 
 body {
-    background: #171919;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -29,10 +28,8 @@ body {
 }
 
 .container {
-    background: rgba(255, 255, 255, 0.06);
     padding: 2.5rem 4.5rem;
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.08);
     width: 500px;
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
@@ -45,9 +42,7 @@ body {
 
 .container:hover {
     transform: translateY(-5px);
-box-shadow: inset 0 0 12px 10px rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    background: rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 0 12px 10px rgba(255, 255, 255, 0.05);
 }
 
 .container:hover ~ button {
@@ -57,7 +52,6 @@ box-shadow: inset 0 0 12px 10px rgba(255, 255, 255, 0.05);
 }
 
 .container h1 {
-    color: #ffffff;
     margin-bottom: 1.75rem;
     text-align: center;
     font-size: 1.8rem;
@@ -91,7 +85,6 @@ hr {
 }
 
 .inputs label {
-    color: #ffffff;
     font-size: 0.95rem;
     position: relative;
     bottom: 0.4rem;
@@ -103,12 +96,9 @@ hr {
 input {
     width: 100%;
     padding: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
     font-size: 1rem;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    background: rgba(255, 255, 255, 0.05);
-    color: #ffffff;
     backdrop-filter: blur(10px) saturate(160%);
     -webkit-backdrop-filter: blur(10px) saturate(160%);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -120,16 +110,12 @@ input::placeholder {
 }
 
 input:hover {
-    border-color: rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.08);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15),
         inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 input:focus {
-    border-color: rgba(255, 255, 255, 0.25);
     outline: none;
-    background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15),
         inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 0 0 4px rgba(255, 255, 255, 0.05);
 }
@@ -149,11 +135,8 @@ button {
     padding: 0.9rem 7.3rem;
     max-width: 300px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.06);
     backdrop-filter: blur(10px) saturate(160%);
     -webkit-backdrop-filter: blur(10px) saturate(160%);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 16px;
     font-size: 1rem;
     font-weight: 500;
@@ -164,8 +147,6 @@ button {
 }
 
 button:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.15);
     box-shadow: inset 0 0 5px 9px rgba(255, 255, 255, 0.05);
     transform: translateY(-2px);
 }
@@ -174,7 +155,6 @@ button:active {
     transform: translateY(1px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15),
         inset 0 0 0 1px rgba(255, 255, 255, 0.05);
-    background: rgba(255, 255, 255, 0.08);
 }
 
 @media (max-width: 900px) {
