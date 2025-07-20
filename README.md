@@ -24,15 +24,18 @@ A modern, responsive registration form with smooth animations and validation. Bu
 -   Fluid layouts for all devices
 -   Clean and modern interface
 -   Optimized for all screen sizes
+-   Mobile-first approach
 </details>
 
 <details>
 <summary><strong>🎨 Modern UI Elements</strong></summary>
 
--   Beautiful gradient backgrounds
+-   Beautiful liquid glass effect
+-   Enhanced contrast and readability
 -   Smooth hover animations
 -   Interactive form controls
 -   Custom input styling
+-   Light/Dark theme support
 </details>
 
 <details>
