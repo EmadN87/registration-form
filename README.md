@@ -52,19 +52,28 @@ A modern, responsive registration form with smooth animations and validation. Bu
 ```plaintext
 Frontend:
 ├── HTML5
+├── ES6 (JavaScript)
 └── CSS3
 
 Fonts:
-└── Vazirmatn
+├── Vazirmatn
+└── Poppins
 ```
 
 ## 📂 Project Structure
 
-```bash
+```plaintext
 registration-form/
-├── 📄 index.html
-├── 📄 main.css
-└── 📄 README.md
+├── images/
+│   └── screenshot.png
+├── script/
+│   ├── app.js
+|   └── theme.js
+├── style/
+│   ├── main.css
+│   └── theme.css
+├── index.html
+└── README.md
 ```
 
 ## ⚙️ Installation
